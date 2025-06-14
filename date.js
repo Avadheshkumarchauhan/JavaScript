@@ -1,0 +1,14 @@
+let mydate =new Date();
+console.log(mydate);
+console.log(mydate.toISOString());
+console.log(mydate.toString());
+console.log(mydate.getFullYear());
+console.log(typeof(mydate));
+let createdate=new Date(2023,2,23,23,56,32);
+console.log(createdate);
+let myTimeStamp=Date.now();
+console.log(myTimeStamp);
+console.log(mydate.getFullYear());
+console.log(mydate.toJSON());
+console.log(mydate.toLocaleString());
+console.log(myTimeStamp.toLocaleString());
