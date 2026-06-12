@@ -12,3 +12,12 @@ accountPassword="qwert";
 accountCity="chunar";
 addresh="rampur";
 console.table([accountId,accountEmail,accountPassword,accountCity,addresh]);
+
+
+function createHelloWorld() {
+    return "Hello World";
+    // return function () {
+    //     return "Hello World";
+    // }
+}
+console.log(createHelloWorld())
