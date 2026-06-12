@@ -18,7 +18,9 @@ try {
     //     console.log("Error : ",error.message);
         
     // }
-    
+    /**
+     * Find max value of array 
+     */
     const findMaxValue =(arrs,lenght)=>{
         let max = arrs[0];
         for(let i=1;i<lenght;i++){
@@ -28,6 +30,9 @@ try {
         }
         return max;
     }
+    /**
+     * Find min value of array 
+     */
     const findMinValue =(arrs,lenght)=>{
         let min = arrs[0];
         for(let i=1;i<lenght;i++){
@@ -37,10 +42,18 @@ try {
         }
         return min;
     }
+
+    /**
+     * Find second max value of array 
+     */
     const findSecondMaxValue =(arrs)=>{
         arrs.sort((a,b)=>b-a);
         return arrs[1];       
     }
+
+    /**
+     * Find second min value of array  
+     */
     const findSecondMinValue =(arrs)=>{
         arrs.sort((a,b)=>a-b);
         return arrs[1];       
