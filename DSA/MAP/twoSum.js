@@ -1,4 +1,7 @@
-
+/**
+ * time complexity is o(n)
+ * space complexity is s(n)
+ */
 function twoSum(arr,target){
     let map ={}//new Map();
     for(let i=0;i<arr.length;i++){
@@ -20,6 +23,8 @@ function twoSums(arr,target){
         }
         map.set(arr[i],i);
     }
+    //console.log(map);
+    
     return[]
 
 }
