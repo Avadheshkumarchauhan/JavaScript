@@ -13,7 +13,7 @@ const gcd= (m,n)=>{
 
 const lcm=(p,q)=>{
      return p *q/gcd(p,q)
-}
+}                   
 
 console.log(`GCD of ${x} and ${y} is ${gcd(x,y)}`);
 console.log(`LCM of ${x} and ${y} is ${lcm(x,y)}`);
