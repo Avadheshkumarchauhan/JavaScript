@@ -13,4 +13,4 @@ function chechDuplicate(arr){
 console.log(chechDuplicate([1,2,3,4,5,2,3,1]));
 console.log(chechDuplicate([1,2,3,4,5]));
 console.log(chechDuplicate("abcdeavcsgd"));
-console.log(chechDuplicate("abcde"));
+console.log(chechDuplicate("abcde  "));
